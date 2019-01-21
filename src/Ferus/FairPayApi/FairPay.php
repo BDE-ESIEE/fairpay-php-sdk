@@ -32,6 +32,7 @@ class FairPay
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_SSL_VERIFYHOST => false,
         CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSLVERSION     => 6
     );
 
     function __construct($api_key = '')
